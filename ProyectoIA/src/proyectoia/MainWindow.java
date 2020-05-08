@@ -12,6 +12,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileSystemView;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -32,6 +33,8 @@ public class MainWindow extends javax.swing.JFrame {
     private List<Integer> yes;
     
     private void ActualizarLista(boolean warm){
+        DefaultTableModel model = (DefaultTableModel) jtRecom.getModel();
+        while(model.getRowCount() > 0) model.removeRow(0);
         if(warm){
             List<Pelicula> copia = new ArrayList();
             recomendacion.forEach(r -> copia.add(r.copy()));
@@ -49,13 +52,8 @@ public class MainWindow extends javax.swing.JFrame {
             yes.clear();
         }
         recomendacion = modelo.top50();
-        DefaultListModel listModel = new DefaultListModel();
-        recomendacion.forEach((s) -> {
-            listModel.addElement(s.getMovie_title()
-                    + "----" + Pelicula.listToString(s.getGenres(), " ")
-            );
-        });
-        jlRecom.setModel(listModel);
+        recomendacion.forEach(p -> model.addRow(p.inLine()));
+        jtRecom.setModel(model);
     }
     
     /**
@@ -70,13 +68,12 @@ public class MainWindow extends javax.swing.JFrame {
         jBcargar = new javax.swing.JButton();
         jBAbrir = new javax.swing.JButton();
         jBbuscar = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jlRecom = new javax.swing.JList<>();
         jbActualizar = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jtRecom = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(800, 800));
-        setResizable(false);
+        setPreferredSize(new java.awt.Dimension(1200, 800));
 
         jBcargar.setText("Cargar Archivo");
         jBcargar.addActionListener(new java.awt.event.ActionListener() {
@@ -99,15 +96,38 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
-        jlRecom.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jScrollPane1.setViewportView(jlRecom);
-
         jbActualizar.setText("Actualizar");
         jbActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbActualizarActionPerformed(evt);
             }
         });
+
+        jtRecom.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Pelicula", "Generos", "Argumento", "Director", "Actores", "Año", "Clasificación", "Idioma", "País", "IMDB Score", "Color"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jtRecom.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jScrollPane2.setViewportView(jtRecom);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -116,7 +136,7 @@ public class MainWindow extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jBcargar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -137,7 +157,7 @@ public class MainWindow extends javax.swing.JFrame {
                     .addComponent(jBbuscar)
                     .addComponent(jbActualizar))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 349, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 375, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -166,7 +186,7 @@ public class MainWindow extends javax.swing.JFrame {
 
     private void jBAbrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAbrirActionPerformed
         // TODO add your handling code here:
-        int index = jlRecom.getSelectedIndex();
+        int index = jtRecom.getSelectedRow();
         new VerPelicula(recomendacion.get(index)).setVisible(true);
         yes.add(index);
     }//GEN-LAST:event_jBAbrirActionPerformed
@@ -215,8 +235,8 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JButton jBAbrir;
     private javax.swing.JButton jBbuscar;
     private javax.swing.JButton jBcargar;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JButton jbActualizar;
-    private javax.swing.JList<String> jlRecom;
+    private javax.swing.JTable jtRecom;
     // End of variables declaration//GEN-END:variables
 }

@@ -49,7 +49,23 @@ public class Pelicula {
     private String actor3;
     private String actor3_likes;
     private int valorizacion;
-
+    
+    public String[] inLine(){
+        return new String[]{
+            movie_title,
+            listToString(genres,"/"),
+            listToString(plot_keywords,"/"),
+            director,
+            listToString(getActors(),"/"),
+            title_year,
+            content_rating,
+            language,
+            country,
+            imdb_score,
+            color
+        };
+    }
+    
     private boolean isBlank(String string) {
         return string == null || string.trim().isEmpty();
     }
@@ -285,6 +301,9 @@ public class Pelicula {
     public static String listToString(List list, String separador){
         StringBuilder stringBuilder = new StringBuilder();
         list.forEach(i -> stringBuilder.append(i.toString()).append(separador));
+        if(stringBuilder.length() > 0){
+            stringBuilder.delete(stringBuilder.length()-separador.length(), stringBuilder.length());
+        }
         return  stringBuilder.toString();
     }
 
@@ -316,6 +335,6 @@ public class Pelicula {
     }
 
     public static boolean inList(List<String> lista, String val){
-        return lista.stream().filter(s -> s.contains(val)).findFirst().isPresent();
+        return lista.stream().map(i -> i.toLowerCase()).filter(s -> s.contains(val)).findFirst().isPresent();
     }
 }

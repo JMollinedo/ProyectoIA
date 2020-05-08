@@ -96,17 +96,18 @@ public class Naive {
     }
 
     public List<Pelicula> buscar (String campo, String valor){
+        String val = valor.toLowerCase();
         switch (campo){
             case "genres":
             case "plot_keywords":
-            case "actors": return buscar1(campo,valor);
+            case "actors": return buscar1(campo,val);
             case "color":
             case "language":
             case "country":
             case "content_rating":
             case "decade":
             case "score":
-            case "director": return buscar2(campo,valor);
+            case "director": return buscar2(campo,val);
             default: return new ArrayList();
         }
     }
@@ -114,7 +115,7 @@ public class Naive {
     private List<Pelicula> buscar2(String campo, String valor){
         List l = poblacion
                 .stream()
-                .filter(p -> p.fromName(campo).contains(valor))
+                .filter(p -> Optional.ofNullable(p.fromName(campo)).orElse("").toLowerCase().contains(valor))
                 .collect(Collectors.toList());
         return getTop(l,Integer.MAX_VALUE);
     }
