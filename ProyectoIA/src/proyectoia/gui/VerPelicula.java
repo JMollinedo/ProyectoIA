@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyectoia;
+package proyectoia.gui;
 
 import java.util.Optional;
 import javax.swing.table.DefaultTableModel;
+import proyectoia.Pelicula;
 
 /**
  *
@@ -92,8 +93,7 @@ public class VerPelicula extends javax.swing.JFrame {
         jTtabla = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(800, 800));
-        setResizable(false);
+        setPreferredSize(new java.awt.Dimension(900, 450));
 
         jTtabla.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyectoia;
+package proyectoia.gui;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import javax.swing.DefaultListModel;
 import javax.swing.table.DefaultTableModel;
+import proyectoia.Naive;
+import proyectoia.Pelicula;
 
 /**
  *

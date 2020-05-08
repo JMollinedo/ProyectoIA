@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyectoia;
+package proyectoia.gui;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,6 +13,9 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.DefaultTableModel;
+import proyectoia.Naive;
+import proyectoia.Pelicula;
+import proyectoia.RNW;
 
 /**
  *
