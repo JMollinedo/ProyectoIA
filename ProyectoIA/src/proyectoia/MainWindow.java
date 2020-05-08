@@ -38,7 +38,10 @@ public class MainWindow extends javax.swing.JFrame {
             for(int i = 0; i < copia.size(); i++){
                 Pelicula p = copia.get(i);
                 if(!modelo.inYesInput(p)){
-                    if(yes.contains(i)) p.setValorizacion(Pelicula.YES);
+                    if(yes.contains(i)){
+                        p.setValorizacion(Pelicula.YES);
+                        modelo.addYesInput(p);
+                    }
                     else p.setValorizacion(Pelicula.NO);
                     modelo.addMuestra(p);
                 }
@@ -96,6 +99,7 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
+        jlRecom.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(jlRecom);
 
         jbActualizar.setText("Actualizar");

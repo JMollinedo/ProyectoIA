@@ -44,6 +44,7 @@ public class SearchWindow extends javax.swing.JFrame {
             if(!modelo.inYesInput(p)){
                 if(yes.contains(i)){
                     p.setValorizacion(Pelicula.YES);
+                    modelo.addYesInput(p);
                     si.add(p);
                 }else{
                     p.calcValorazacion(Pelicula.NO);
@@ -95,6 +96,7 @@ public class SearchWindow extends javax.swing.JFrame {
             }
         });
 
+        jlResult.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(jlResult);
 
         jBabrir.setText("Abrir");

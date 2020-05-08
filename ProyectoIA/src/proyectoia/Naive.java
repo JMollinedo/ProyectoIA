@@ -6,10 +6,8 @@
 package proyectoia;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.Queue;
 import java.util.stream.Collectors;
@@ -165,17 +163,8 @@ public class Naive {
         }
         return list
                 .stream()
-                /*.peek(it -> 
-                        System.out.println(
-                                it.getPelicula().getMovie_title()
-                                        + "\t" + it.getPelicula().getTitle_year()
-                                        + "\t" + it.probabilidad(Pelicula.NO)
-                        )
-                )*/
-                .sorted(Comparator.comparingDouble(a -> a.probabilidad(Pelicula.NO)))
+                .sorted((a,b) -> Double.compare(b.probabilidad(Pelicula.YES), a.probabilidad(Pelicula.YES)))
                 .limit(limt)
-                .parallel()
-                //.peek(it -> System.out.println(it.probabilidad(Pelicula.NO)))
                 .map(p-> p.getPelicula())
                 .collect(Collectors.toList());
     }
