@@ -1,0 +1,186 @@
+Corrida 3
+Inicial
+Avatar ;Action,Adventure,Fantasy,Sci-Fi
+Star Wars: Episode VII - The Force Awakens ;Documentary
+Harry Potter and the Half-Blood Prince ;Adventure,Family,Fantasy,Mystery
+Superman Returns ;Action,Adventure,Sci-Fi
+Quantum of Solace ;Action,Adventure
+The Lone Ranger ;Action,Adventure,Western
+The Chronicles of Narnia: Prince Caspian ;Action,Adventure,Family,Fantasy
+Men in Black 3 ;Action,Adventure,Comedy,Family,Fantasy,Sci-Fi
+The Hobbit: The Battle of the Five Armies ;Adventure,Fantasy
+Robin Hood ;Action,Adventure,Drama,History
+The Hobbit: The Desolation of Smaug ;Adventure,Fantasy
+King Kong ;Action,Adventure,Drama,Romance
+Titanic ;Drama,Romance
+Skyfall ;Action,Adventure,Thriller
+Alice in Wonderland ;Adventure,Family,Fantasy
+Transformers: Age of Extinction ;Action,Adventure,Sci-Fi
+Toy Story 3 ;Adventure,Animation,Comedy,Family,Fantasy
+X-Men: Days of Future Past ;Action,Adventure,Fantasy,Sci-Fi,Thriller
+Star Trek Into Darkness ;Action,Adventure,Sci-Fi
+Indiana Jones and the Kingdom of the Crystal Skull ;Action,Adventure,Fantasy
+A Christmas Carol ;Animation,Drama,Family,Fantasy
+Iron Man ;Action,Adventure,Sci-Fi
+Hugo ;Adventure,Drama,Family,Mystery
+Wild Wild West ;Action,Comedy,Sci-Fi,Western
+The Jungle Book ;Adventure,Drama,Family,Fantasy
+Dawn of the Planet of the Apes ;Action,Adventure,Drama,Sci-Fi
+Interstellar ;Adventure,Drama,Sci-Fi
+Godzilla Resurgence ;Action,Adventure,Drama,Horror,Sci-Fi
+The Hobbit: An Unexpected Journey ;Adventure,Fantasy
+Poseidon ;Action,Adventure,Drama,Thriller
+Warcraft ;Action,Adventure,Fantasy
+Pearl Harbor ;Action,Drama,History,Romance,War
+Harry Potter and the Order of the Phoenix ;Adventure,Family,Fantasy,Mystery
+Harry Potter and the Goblet of Fire ;Adventure,Family,Fantasy,Mystery
+I Am Legend ;Drama,Horror,Sci-Fi
+Madagascar: Escape 2 Africa ;Action,Adventure,Animation,Comedy,Family
+Angels & Demons ;Mystery,Thriller
+Bolt ;Adventure,Animation,Comedy,Drama,Family
+The Wolfman ;Drama,Fantasy,Horror,Thriller
+The Last Airbender ;Action,Adventure,Family,Fantasy
+Mission: Impossible III ;Action,Adventure,Thriller
+White House Down ;Action,Drama,Thriller
+Flushed Away ;Adventure,Animation,Comedy,Family
+Pan ;Adventure,Family,Fantasy
+Madagascar 3: Europe's Most Wanted ;Adventure,Animation,Comedy,Family
+Armageddon ;Action,Adventure,Sci-Fi,Thriller
+Men in Black II ;Action,Adventure,Comedy,Family,Fantasy,Mystery,Sci-Fi
+Rise of the Guardians ;Adventure,Animation,Family,Fantasy
+Exodus: Gods and Kings ;Action,Adventure,Drama
+Star Trek ;Action,Adventure,Sci-Fi
+Input
+Avatar ;Action,Adventure,Fantasy,Sci-Fi
+Harry Potter and the Half-Blood Prince ;Adventure,Family,Fantasy,Mystery
+Superman Returns ;Action,Adventure,Sci-Fi
+Quantum of Solace ;Action,Adventure
+The Lone Ranger ;Action,Adventure,Western
+The Chronicles of Narnia: Prince Caspian ;Action,Adventure,Family,Fantasy
+Men in Black 3 ;Action,Adventure,Comedy,Family,Fantasy,Sci-Fi
+The Hobbit: The Battle of the Five Armies ;Adventure,Fantasy
+Robin Hood ;Action,Adventure,Drama,History
+The Hobbit: The Desolation of Smaug ;Adventure,Fantasy
+King Kong ;Action,Adventure,Drama,Romance
+Skyfall ;Action,Adventure,Thriller
+Alice in Wonderland ;Adventure,Family,Fantasy
+Transformers: Age of Extinction ;Action,Adventure,Sci-Fi
+Toy Story 3 ;Adventure,Animation,Comedy,Family,Fantasy
+Recomendación 1
+Avatar ;Action,Adventure,Fantasy,Sci-Fi
+Harry Potter and the Half-Blood Prince ;Adventure,Family,Fantasy,Mystery
+Superman Returns ;Action,Adventure,Sci-Fi
+Quantum of Solace ;Action,Adventure
+The Lone Ranger ;Action,Adventure,Western
+The Chronicles of Narnia: Prince Caspian ;Action,Adventure,Family,Fantasy
+Men in Black 3 ;Action,Adventure,Comedy,Family,Fantasy,Sci-Fi
+The Hobbit: The Battle of the Five Armies ;Adventure,Fantasy
+Robin Hood ;Action,Adventure,Drama,History
+The Hobbit: The Desolation of Smaug ;Adventure,Fantasy
+King Kong ;Action,Adventure,Drama,Romance
+Skyfall ;Action,Adventure,Thriller
+Alice in Wonderland ;Adventure,Family,Fantasy
+Transformers: Age of Extinction ;Action,Adventure,Sci-Fi
+Toy Story 3 ;Adventure,Animation,Comedy,Family,Fantasy
+Up ;Adventure,Animation,Comedy,Family
+Alice Through the Looking Glass ;Adventure,Family,Fantasy
+Charlie and the Chocolate Factory ;Adventure,Comedy,Family,Fantasy
+Lethal Weapon 4 ;Action,Crime,Thriller
+Hulk ;Action,Sci-Fi
+The Bourne Ultimatum ;Action,Mystery,Thriller
+The Adventures of Tintin ;Action,Adventure,Family,Mystery
+Harry Potter and the Prisoner of Azkaban ;Adventure,Family,Fantasy,Mystery
+Australia ;Adventure,Drama,Romance,War
+Harry Potter and the Sorcerer's Stone ;Adventure,Family,Fantasy
+R.I.P.D. ;Action,Comedy,Fantasy
+Harry Potter and the Deathly Hallows: Part I ;Fantasy
+The Da Vinci Code ;Mystery,Thriller
+Total Recall ;Action,Sci-Fi
+The 13th Warrior ;Action,Adventure,History
+Fantastic 4: Rise of the Silver Surfer ;Action,Adventure,Sci-Fi,Thriller
+Life of Pi ;Adventure,Drama,Fantasy
+Jason Bourne ;Action,Thriller
+The Chronicles of Riddick ;Action,Adventure,Sci-Fi,Thriller
+How Do You Know ;Comedy,Drama,Romance
+Star Wars: Episode III - Revenge of the Sith ;Action,Adventure,Fantasy,Sci-Fi
+Star Wars: Episode II - Attack of the Clones ;Action,Adventure,Fantasy,Sci-Fi
+Monsters, Inc. ;Adventure,Animation,Comedy,Family,Fantasy
+The Croods ;Adventure,Animation,Comedy,Family,Fantasy
+Windtalkers ;Action,Drama,War
+Gravity ;Adventure,Drama,Sci-Fi,Thriller
+San Andreas ;Action,Adventure,Drama,Thriller
+Mr. & Mrs. Smith ;Action,Comedy,Crime,Romance,Thriller
+The A-Team ;Action,Adventure,Crime
+Allegiant ;Action,Adventure,Mystery,Sci-Fi,Thriller
+The Lord of the Rings: The Fellowship of the Ring ;Action,Adventure,Drama,Fantasy
+Around the World in 80 Days ;Action,Adventure,Comedy
+Ali ;Biography,Drama,Sport
+Harry Potter and the Chamber of Secrets ;Adventure,Family,Fantasy,Mystery
+Terminator 2: Judgment Day ;Action,Sci-Fi
+Input
+Up ;Adventure,Animation,Comedy,Family
+Alice Through the Looking Glass ;Adventure,Family,Fantasy
+Charlie and the Chocolate Factory ;Adventure,Comedy,Family,Fantasy
+The Adventures of Tintin ;Action,Adventure,Family,Mystery
+Harry Potter and the Prisoner of Azkaban ;Adventure,Family,Fantasy,Mystery
+Australia ;Adventure,Drama,Romance,War
+Harry Potter and the Sorcerer's Stone ;Adventure,Family,Fantasy
+The 13th Warrior ;Action,Adventure,History
+Fantastic 4: Rise of the Silver Surfer ;Action,Adventure,Sci-Fi,Thriller
+Life of Pi ;Adventure,Drama,Fantasy
+The Chronicles of Riddick ;Action,Adventure,Sci-Fi,Thriller
+Star Wars: Episode III - Revenge of the Sith ;Action,Adventure,Fantasy,Sci-Fi
+Star Wars: Episode II - Attack of the Clones ;Action,Adventure,Fantasy,Sci-Fi
+Monsters, Inc. ;Adventure,Animation,Comedy,Family,Fantasy
+The Croods ;Adventure,Animation,Comedy,Family,Fantasy
+Recomendación 2
+Avatar ;Action,Adventure,Fantasy,Sci-Fi
+Harry Potter and the Half-Blood Prince ;Adventure,Family,Fantasy,Mystery
+Superman Returns ;Action,Adventure,Sci-Fi
+Quantum of Solace ;Action,Adventure
+The Lone Ranger ;Action,Adventure,Western
+The Chronicles of Narnia: Prince Caspian ;Action,Adventure,Family,Fantasy
+Men in Black 3 ;Action,Adventure,Comedy,Family,Fantasy,Sci-Fi
+Robin Hood ;Action,Adventure,Drama,History
+The Hobbit: The Desolation of Smaug ;Adventure,Fantasy
+King Kong ;Action,Adventure,Drama,Romance
+Skyfall ;Action,Adventure,Thriller
+Alice in Wonderland ;Adventure,Family,Fantasy
+Transformers: Age of Extinction ;Action,Adventure,Sci-Fi
+Toy Story 3 ;Adventure,Animation,Comedy,Family,Fantasy
+The Great Gatsby ;Drama,Romance
+Up ;Adventure,Animation,Comedy,Family
+Inside Out ;Adventure,Animation,Comedy,Drama,Family,Fantasy
+How to Train Your Dragon ;Adventure,Animation,Family,Fantasy
+Alice Through the Looking Glass ;Adventure,Family,Fantasy
+Charlie and the Chocolate Factory ;Adventure,Comedy,Family,Fantasy
+The BFG ;Adventure,Family,Fantasy
+Rango ;Adventure,Animation,Comedy,Family,Western
+The Adventures of Tintin ;Action,Adventure,Family,Mystery
+Harry Potter and the Prisoner of Azkaban ;Adventure,Family,Fantasy,Mystery
+Australia ;Adventure,Drama,Romance,War
+Megamind ;Action,Animation,Comedy,Family,Sci-Fi
+Harry Potter and the Sorcerer's Stone ;Adventure,Family,Fantasy
+The 13th Warrior ;Action,Adventure,History
+Fantastic 4: Rise of the Silver Surfer ;Action,Adventure,Sci-Fi,Thriller
+Life of Pi ;Adventure,Drama,Fantasy
+The Chronicles of Riddick ;Action,Adventure,Sci-Fi,Thriller
+Star Wars: Episode III - Revenge of the Sith ;Action,Adventure,Fantasy,Sci-Fi
+Star Wars: Episode II - Attack of the Clones ;Action,Adventure,Fantasy,Sci-Fi
+Monsters, Inc. ;Adventure,Animation,Comedy,Family,Fantasy
+Star Wars: Episode I - The Phantom Menace ;Action,Adventure,Fantasy,Sci-Fi
+The Croods ;Adventure,Animation,Comedy,Family,Fantasy
+Asterix at the Olympic Games ;Adventure,Comedy,Family,Fantasy
+Gladiator ;Action,Drama,Romance
+Public Enemies ;Biography,Crime,Drama,History,Romance
+National Treasure ;Action,Adventure,Comedy,Family,Mystery
+The Tourist ;Action,Romance,Thriller
+End of Days ;Action,Fantasy,Horror,Mystery
+Starship Troopers ;Action,Sci-Fi,War
+Cloud Atlas ;Drama,Sci-Fi
+Black Hawk Down ;Drama,History,War
+Cinderella ;Drama,Family,Fantasy,Romance
+Seventh Son ;Action,Adventure,Fantasy
+Men in Black ;Adventure,Comedy,Family,Mystery,Sci-Fi
+Toy Story 2 ;Adventure,Animation,Comedy,Family,Fantasy
+The Secret Life of Walter Mitty ;Adventure,Comedy,Drama,Fantasy,Romance
